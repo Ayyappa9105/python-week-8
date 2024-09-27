@@ -1,0 +1,13 @@
+def gcd(a,b):
+	if b==0:
+		return a
+	else:
+		return gcd(b,a%b)
+a=int(input("enter the a value:"))
+b=int(input("enter the b value:"))
+print(gcd(a,b))
+
+//output:
+enter the a value:5
+enter the b value:6
+1

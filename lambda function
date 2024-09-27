@@ -1,0 +1,10 @@
+eve = lambda a: "EVEN" if a % 2 == 0 else "ODD"
+
+a = int(input("Enter the number: "))
+result = eve(a)
+print(result)
+
+
+//output
+Enter the number:6
+EVEN
